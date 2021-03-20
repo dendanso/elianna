@@ -1,0 +1,537 @@
+@media only screen and (min-width: 2047px){
+    body{
+       .mother{
+           .container{
+               width: 80%;
+           }
+
+           .banner{
+               .banner_flexbox{
+                   .flex1{
+                       .banner_content{
+                           h1{
+                               font-size: 2.3em;
+                           }
+
+                           h3{
+                            font-size: 1.3em;
+                            color: wheat;
+                           }
+
+                           .banner_feature{
+                               .banner_feature_content{
+                                   h2{
+                                    font-size: 1.3em;
+                                    padding-top: 40px;
+                                   }
+                               }
+                           }
+                       }
+                   }
+               }
+           }
+
+           .body_content1{
+               .container{
+                   .content1_flexbox{
+                       .flex2{
+                           .flex2_content{
+                               p{
+                                font-size: 1.15em;
+                               }
+                           }
+                       }
+                   }
+               }
+           }
+
+           .body_content2{
+            .content_holder{
+                .content{
+                    p{
+                        font-size: 1.2em;
+                        
+                    }
+                }
+            }
+           }
+               
+    
+               
+
+           .body_content3{
+                .container{
+                    .massage_styles{
+                      
+                        top: -10vh;
+                        .flex1{
+                            .card{
+                                width: 90%;
+                                height: 40vh;
+                               
+                                .massage_image{
+                                    height: 25vh;
+                                }
+
+                                .massage_image2{
+                                    height: 27vh;
+                                }
+
+                                .massage_text_flexbox{
+                                    .flex1{
+                                        h1{
+                                            font-size: 1.5em;
+                                        }
+                                        p{
+                                            font-size: 1em;
+                                        }
+                                    }
+
+                                    .flex2{
+                                      
+                                        button{
+                                            padding: 10px 50px 10px 50px;
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+           }
+       }
+    }
+}
+
+@media only screen and (max-width: 1281px){
+    body{
+        .mother{
+            .black_back{
+                height: 9vh;
+            }
+            .container{
+                .nav_flexbox{
+                    .flex3{
+                        ul{
+                            li{
+                                padding-left: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .banner{
+                .banner_flexbox{
+                    .flex1{
+                        .banner_content{
+                            h1{
+                                font-size: 1.4em;
+                            }
+                            h3{
+                                font-size: .8em;
+                            }
+    
+                            .about_subHeading{
+                                font-size: .8em;
+                            
+                            }
+                        }
+                        
+                    }
+                }
+            }
+
+            .palm_inverse1{
+                left: 34%;
+                transform: translate(-34%,-32%);
+            }
+
+            .body_content1{
+                .container{
+                    .content1_flexbox{
+                        .flex1{
+                            .flex1_content{
+                                h1{
+                                    font-size: 2.6em;
+                                }
+
+                                .about_body_subHeading{
+                                    font-size: 2.1em;
+                                }
+                            }
+                        }
+
+                        .flex2{
+                            .flex2_content{
+                                p{
+                                    font-size: .9em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .body_content2{
+                .content_holder{
+                    .content{
+                        h1{
+                            font-size: 1.2em;
+                        }
+
+                        p{
+                            font-size: .8em;
+                        }
+                    }
+                }
+            }
+
+            .body_content3{
+                .container{
+                    .massage_styles{
+                      
+                        top: -10vh;
+                        .flex1{
+                            .card{
+                                width: 90%;
+                                height: 40vh;
+                               
+                                .massage_image{
+                                    height: 25vh;
+                                }
+
+                                .massage_image2{
+                                    height: 27vh;
+                                }
+
+                                .massage_text_flexbox{
+                                    .flex1{
+                                        h1{
+                                            font-size: 1em;
+                                        }
+                                        p{
+                                            font-size: .5em;
+                                        }
+                                    }
+
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+           }
+
+           .about_body_content2{
+            margin-top: 50px;
+               .container{
+                   .about_content_flexbox{
+                       .flex{
+                        .about_image4{
+                            width: 100%;
+                            font-size: .85em;
+                        }
+                       }
+                   }
+               }
+           }
+
+           footer{
+               .footer_flexbox{
+                   .flex{
+                       p{
+                           font-size: .8em;
+                       }
+                   }
+               }
+           }
+        }
+    }
+}
+
+//mobile phones:portrait
+
+@media only screen and (orientation:portrait)
+and (max-device-width:896px){
+    body{
+        .mother{
+            .container{
+                width: 90%;
+                .nav_flexbox{
+                    .flex1{
+                        width: 13%;
+                    }
+                    .flex2{
+                        width: 90%;
+                    }
+                    .flex3{
+                        width: 5%;
+                        ul{
+                            display: none;
+                        }
+
+                        .mini_navigation{
+                            .circle1,.circle2,.circle3{
+                                width: 5px;
+                                height: 5px;
+                                background-color: black;
+                                margin: 3px;
+                                border-radius: 50%;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+
+            .hidden_navigation{
+                overflow: hidden;
+                height: 0;
+                transition: all cubic-bezier(0.075, 0.82, 0.165, 1) .8s;
+                background-color: white;
+                position: fixed;
+                top: 9%;
+                width: 100%;
+                transform: translateY(-9%);
+                .container{
+                    width: 80%;
+                    position: relative;
+
+                    button{
+                        background-color: wheat;
+                        border: none;
+                        font-weight: bold;
+                        font-size: 15px;
+                        font-family: 'Nunito', sans-serif;
+                        border-radius: 20px;
+                        padding: 7px 40px 7px 40px;
+                        cursor: pointer;
+                        margin-top: 10px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        
+                        
+                    }
+                    ul{
+                        list-style-type: none;
+                        text-align: right;
+                        li{
+                            padding-top: 10px;
+                            a{
+                                text-decoration: none;
+                                color: black;
+                                font-weight: 700;
+                                
+                            }
+                           
+                        }
+                    }
+                }
+            }
+
+            .banner{
+                .banner_flexbox{
+                    flex-direction: column;
+
+                    .flex1{
+                        display: none;
+                    }
+
+                    .flex2{
+                        width: 100%;
+                        height: 90vh;
+
+                        img{
+                            mask: url(../images/mask10_mobile2.svg);
+                            mask-size: contain;
+                            mask-repeat: no-repeat;
+                            mask-position:  150px center ;
+                            transform: scale(4);
+                        }
+                    }
+                }
+            }
+
+            .body_content1{
+                margin-top: 60px;
+                .container{
+                    .content1_flexbox{
+                        flex-direction: column;
+                        .flex1{
+                            width: 100%;
+                            .flex1_content{
+                                p{
+                                    text-align: center;
+                                }
+
+                                h1{
+                                    width: 100%;
+                                    text-align: center;
+                                    font-size: 2em;
+                                }
+                            }
+                        }
+
+                        .flex2{
+                            width: 100%;
+
+                            .flex2_content{
+                                p{
+                                    text-align: center;
+                                    font-size: 1em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .body_content2{
+                img{
+                    width: 100%;
+                }
+
+                .content_holder{
+                    width: 90%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                }
+            }
+
+            .body_content3{
+                .container{
+                    .massage_styles{
+                        .massage_styles_holder{
+                            .massage_styles_flexbox{
+                                width: 200%;
+                                .flex1{
+                                    width: 100%;
+                                    .card{
+                                        width: 96%; 
+                                        .massage_image{
+                                            height: 29vh;
+                                        }
+                                        .massage_text_flexbox{
+                                            flex-direction: column;
+                                            .flex1{
+                                             
+                                                margin: 0;
+                                                h1{
+                                                    text-align: center;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    font-weight: 800;
+                                                }
+                                                p{
+                                                    display: none;
+                                                }
+                                            }
+
+                                            .flex2{
+                                                width: 100%;
+                                                height: 5vh;
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .body_content4{
+                .content_holder{
+                    .massage_icon{
+                        display: none;
+                    }
+                }
+            }
+
+            .body_content5{
+                .container{
+                    .booking_session_flexbox{
+                        flex-direction: column;
+                        .flex{
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
+
+            .about_body_content2{
+                .container{
+                    .about_content_flexbox{
+                        flex-direction: column;
+                        .flex{
+                            width: 100%;
+
+                            .about_image1,.about_image2,.about_image4{
+                                width: 100%;
+                                margin-top: 20px;
+                            }
+
+                            .about_image3{
+                                display: none;
+                            }
+                        }
+
+                        .flex:nth-child(2){
+                            height: 50vh;
+                        }
+                    }
+                }
+            }
+
+            .container{
+                .last_paragraph{
+                    text-align: center;
+                    padding: 100px 0px;
+                    line-height: 2;
+                    font-size: 1.2em;
+                    width: 100%;
+                    
+                            
+                }
+            }
+
+            .contact_white_container{
+                width: 90%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+               
+            }
+
+            footer{
+                .container{
+                    .footer_flexbox{
+                        flex-direction: column;
+                        .flex{
+                            width: 100%;
+                        }
+
+                        .flex:nth-child(2){
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .leaves3{
+                display: none;
+            }
+
+            .show_nav{
+                height: 20vh;
+                transition: all cubic-bezier(0.075, 0.82, 0.165, 1) .8s;
+                
+            }
+        }
+    }
+}

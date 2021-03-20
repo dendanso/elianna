@@ -1,0 +1,161 @@
+body{
+    @mixin flexbox {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    @mixin centered {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .mother{
+        .container{
+            .nav_flexbox{
+                .flex3{
+                    ul{
+                        li:nth-child(1){
+                            font-weight: 500;
+                        }
+                        
+                        li:nth-child(2){
+                            font-weight: 900;
+                        }
+                    }
+                }
+            }
+        }
+    
+
+        /*banner*/
+        .banner{
+            background-color: rgb(27, 27, 27);
+            height: 75vh;
+            color: white;
+        .banner_flexbox{
+            .flex1{
+                .banner_content{
+                    h1{
+                        color: white;
+                    }
+
+                    h3{
+                        font-size: 1em;
+                    }
+                }
+
+                .banner_feature{
+                    .banner_feature_content{
+                        color: black;
+                    }
+                }
+            }
+        }
+            
+        }
+
+        .body_content1{
+            
+            .container{
+                .content1_flexbox{
+                    .flex1{
+                        .flex1_content{
+                            h1{
+                                font-size: 2.5em;
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .about_body_content2{
+            margin-top: 100px;
+            .about_content_flexbox{
+                @include flexbox();
+                
+                .flex{
+                    width: 50%;
+                    
+                    position: relative;
+                    
+
+                    .about_image1{
+                     
+                        width:90%;
+                        height: 50vh;
+                        background: url(../images/about_img1.jpg);
+                        background-size:cover;
+                        
+
+                    }
+
+                    .about_image2{
+                     
+                        width:90%;
+                        height: 50vh;
+                        background: url(../images/about_img2.jpg);
+                        background-size:cover;
+                        
+
+                    }
+
+                    .about_image3{
+                     
+                        width:90%;
+                        height: 50vh;
+                        background: url(../images/about_img3.jpg);
+                        background-size:cover;
+                        
+                        
+
+                    }
+
+                    .about_image4{
+                        width: 80%;
+                        line-height: 2;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                       
+                    }
+                }
+            }
+        }
+
+        .container{
+            .last_paragraph{
+                text-align: center;
+                padding: 100px 200px;
+                line-height: 2;
+                font-size: 1.2em;
+                        
+            }
+        }
+
+        .leaves{
+            width: 20%;
+            height: 40vh;
+            background: url(../images/leaves.png)no-repeat;
+            background-size:contain;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .leaves3{
+            width: 20%;
+            height: 40vh;
+            background: url(../images/leaves.png);
+            background-repeat: no-repeat;
+            background-size:contain;
+            position: absolute;
+            top: 250%;
+            transform: translateY(-250%);
+        }
+
+    }
+}

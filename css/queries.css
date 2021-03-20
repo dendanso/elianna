@@ -1,0 +1,338 @@
+@media only screen and (min-width: 2047px) {
+  body .mother .container {
+    width: 80%;
+  }
+  body .mother .banner .banner_flexbox .flex1 .banner_content h1 {
+    font-size: 2.3em;
+  }
+  body .mother .banner .banner_flexbox .flex1 .banner_content h3 {
+    font-size: 1.3em;
+    color: wheat;
+  }
+  body .mother .banner .banner_flexbox .flex1 .banner_content .banner_feature .banner_feature_content h2 {
+    font-size: 1.3em;
+    padding-top: 40px;
+  }
+  body .mother .body_content1 .container .content1_flexbox .flex2 .flex2_content p {
+    font-size: 1.15em;
+  }
+  body .mother .body_content2 .content_holder .content p {
+    font-size: 1.2em;
+  }
+  body .mother .body_content3 .container .massage_styles {
+    top: -10vh;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card {
+    width: 90%;
+    height: 40vh;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card .massage_image {
+    height: 25vh;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card .massage_image2 {
+    height: 27vh;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card .massage_text_flexbox .flex1 h1 {
+    font-size: 1.5em;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card .massage_text_flexbox .flex1 p {
+    font-size: 1em;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card .massage_text_flexbox .flex2 button {
+    padding: 10px 50px 10px 50px;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  body .mother .black_back {
+    height: 9vh;
+  }
+  body .mother .container .nav_flexbox .flex3 ul li {
+    padding-left: 100px;
+  }
+  body .mother .banner .banner_flexbox .flex1 .banner_content h1 {
+    font-size: 1.4em;
+  }
+  body .mother .banner .banner_flexbox .flex1 .banner_content h3 {
+    font-size: .8em;
+  }
+  body .mother .banner .banner_flexbox .flex1 .banner_content .about_subHeading {
+    font-size: .8em;
+  }
+  body .mother .palm_inverse1 {
+    left: 34%;
+    -webkit-transform: translate(-34%, -32%);
+            transform: translate(-34%, -32%);
+  }
+  body .mother .body_content1 .container .content1_flexbox .flex1 .flex1_content h1 {
+    font-size: 2.6em;
+  }
+  body .mother .body_content1 .container .content1_flexbox .flex1 .flex1_content .about_body_subHeading {
+    font-size: 2.1em;
+  }
+  body .mother .body_content1 .container .content1_flexbox .flex2 .flex2_content p {
+    font-size: .9em;
+  }
+  body .mother .body_content2 .content_holder .content h1 {
+    font-size: 1.2em;
+  }
+  body .mother .body_content2 .content_holder .content p {
+    font-size: .8em;
+  }
+  body .mother .body_content3 .container .massage_styles {
+    top: -10vh;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card {
+    width: 90%;
+    height: 40vh;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card .massage_image {
+    height: 25vh;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card .massage_image2 {
+    height: 27vh;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card .massage_text_flexbox .flex1 h1 {
+    font-size: 1em;
+  }
+  body .mother .body_content3 .container .massage_styles .flex1 .card .massage_text_flexbox .flex1 p {
+    font-size: .5em;
+  }
+  body .mother .about_body_content2 {
+    margin-top: 50px;
+  }
+  body .mother .about_body_content2 .container .about_content_flexbox .flex .about_image4 {
+    width: 100%;
+    font-size: .85em;
+  }
+  body .mother footer .footer_flexbox .flex p {
+    font-size: .8em;
+  }
+}
+
+@media only screen and (orientation: portrait) and (max-device-width: 896px) {
+  body .mother .container {
+    width: 90%;
+  }
+  body .mother .container .nav_flexbox .flex1 {
+    width: 13%;
+  }
+  body .mother .container .nav_flexbox .flex2 {
+    width: 90%;
+  }
+  body .mother .container .nav_flexbox .flex3 {
+    width: 5%;
+  }
+  body .mother .container .nav_flexbox .flex3 ul {
+    display: none;
+  }
+  body .mother .container .nav_flexbox .flex3 .mini_navigation .circle1, body .mother .container .nav_flexbox .flex3 .mini_navigation .circle2, body .mother .container .nav_flexbox .flex3 .mini_navigation .circle3 {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    margin: 3px;
+    border-radius: 50%;
+  }
+  body .mother .hidden_navigation {
+    overflow: hidden;
+    height: 0;
+    -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+    background-color: white;
+    position: fixed;
+    top: 9%;
+    width: 100%;
+    -webkit-transform: translateY(-9%);
+            transform: translateY(-9%);
+  }
+  body .mother .hidden_navigation .container {
+    width: 80%;
+    position: relative;
+  }
+  body .mother .hidden_navigation .container button {
+    background-color: wheat;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 20px;
+    padding: 7px 40px 7px 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  body .mother .hidden_navigation .container ul {
+    list-style-type: none;
+    text-align: right;
+  }
+  body .mother .hidden_navigation .container ul li {
+    padding-top: 10px;
+  }
+  body .mother .hidden_navigation .container ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+  body .mother .banner .banner_flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mother .banner .banner_flexbox .flex1 {
+    display: none;
+  }
+  body .mother .banner .banner_flexbox .flex2 {
+    width: 100%;
+    height: 90vh;
+  }
+  body .mother .banner .banner_flexbox .flex2 img {
+    -webkit-mask: url(../images/mask10_mobile2.svg);
+            mask: url(../images/mask10_mobile2.svg);
+    -webkit-mask-size: contain;
+            mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+    -webkit-mask-position: 150px center;
+            mask-position: 150px center;
+    -webkit-transform: scale(4);
+            transform: scale(4);
+  }
+  body .mother .body_content1 {
+    margin-top: 60px;
+  }
+  body .mother .body_content1 .container .content1_flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mother .body_content1 .container .content1_flexbox .flex1 {
+    width: 100%;
+  }
+  body .mother .body_content1 .container .content1_flexbox .flex1 .flex1_content p {
+    text-align: center;
+  }
+  body .mother .body_content1 .container .content1_flexbox .flex1 .flex1_content h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+  }
+  body .mother .body_content1 .container .content1_flexbox .flex2 {
+    width: 100%;
+  }
+  body .mother .body_content1 .container .content1_flexbox .flex2 .flex2_content p {
+    text-align: center;
+    font-size: 1em;
+  }
+  body .mother .body_content2 img {
+    width: 100%;
+  }
+  body .mother .body_content2 .content_holder {
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  body .mother .body_content3 .container .massage_styles .massage_styles_holder .massage_styles_flexbox {
+    width: 200%;
+  }
+  body .mother .body_content3 .container .massage_styles .massage_styles_holder .massage_styles_flexbox .flex1 {
+    width: 100%;
+  }
+  body .mother .body_content3 .container .massage_styles .massage_styles_holder .massage_styles_flexbox .flex1 .card {
+    width: 96%;
+  }
+  body .mother .body_content3 .container .massage_styles .massage_styles_holder .massage_styles_flexbox .flex1 .card .massage_image {
+    height: 29vh;
+  }
+  body .mother .body_content3 .container .massage_styles .massage_styles_holder .massage_styles_flexbox .flex1 .card .massage_text_flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mother .body_content3 .container .massage_styles .massage_styles_holder .massage_styles_flexbox .flex1 .card .massage_text_flexbox .flex1 {
+    margin: 0;
+  }
+  body .mother .body_content3 .container .massage_styles .massage_styles_holder .massage_styles_flexbox .flex1 .card .massage_text_flexbox .flex1 h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+  }
+  body .mother .body_content3 .container .massage_styles .massage_styles_holder .massage_styles_flexbox .flex1 .card .massage_text_flexbox .flex1 p {
+    display: none;
+  }
+  body .mother .body_content3 .container .massage_styles .massage_styles_holder .massage_styles_flexbox .flex1 .card .massage_text_flexbox .flex2 {
+    width: 100%;
+    height: 5vh;
+  }
+  body .mother .body_content4 .content_holder .massage_icon {
+    display: none;
+  }
+  body .mother .body_content5 .container .booking_session_flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mother .body_content5 .container .booking_session_flexbox .flex {
+    width: 100%;
+  }
+  body .mother .about_body_content2 .container .about_content_flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mother .about_body_content2 .container .about_content_flexbox .flex {
+    width: 100%;
+  }
+  body .mother .about_body_content2 .container .about_content_flexbox .flex .about_image1, body .mother .about_body_content2 .container .about_content_flexbox .flex .about_image2, body .mother .about_body_content2 .container .about_content_flexbox .flex .about_image4 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  body .mother .about_body_content2 .container .about_content_flexbox .flex .about_image3 {
+    display: none;
+  }
+  body .mother .about_body_content2 .container .about_content_flexbox .flex:nth-child(2) {
+    height: 50vh;
+  }
+  body .mother .container .last_paragraph {
+    text-align: center;
+    padding: 100px 0px;
+    line-height: 2;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  body .mother .contact_white_container {
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  body .mother footer .container .footer_flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mother footer .container .footer_flexbox .flex {
+    width: 100%;
+  }
+  body .mother footer .container .footer_flexbox .flex:nth-child(2) {
+    display: none;
+  }
+  body .mother .leaves3 {
+    display: none;
+  }
+  body .mother .show_nav {
+    height: 20vh;
+    -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+  }
+}
+/*# sourceMappingURL=queries.css.map */

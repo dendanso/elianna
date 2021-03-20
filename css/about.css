@@ -1,0 +1,115 @@
+body .mother {
+  /*banner*/
+}
+
+body .mother .container .nav_flexbox .flex3 ul li:nth-child(1) {
+  font-weight: 500;
+}
+
+body .mother .container .nav_flexbox .flex3 ul li:nth-child(2) {
+  font-weight: 900;
+}
+
+body .mother .banner {
+  background-color: #1b1b1b;
+  height: 75vh;
+  color: white;
+}
+
+body .mother .banner .banner_flexbox .flex1 .banner_content h1 {
+  color: white;
+}
+
+body .mother .banner .banner_flexbox .flex1 .banner_content h3 {
+  font-size: 1em;
+}
+
+body .mother .banner .banner_flexbox .flex1 .banner_feature .banner_feature_content {
+  color: black;
+}
+
+body .mother .body_content1 .container .content1_flexbox .flex1 .flex1_content h1 {
+  font-size: 2.5em;
+  line-height: 1.5;
+}
+
+body .mother .about_body_content2 {
+  margin-top: 100px;
+}
+
+body .mother .about_body_content2 .about_content_flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .mother .about_body_content2 .about_content_flexbox .flex {
+  width: 50%;
+  position: relative;
+}
+
+body .mother .about_body_content2 .about_content_flexbox .flex .about_image1 {
+  width: 90%;
+  height: 50vh;
+  background: url(../images/about_img1.jpg);
+  background-size: cover;
+}
+
+body .mother .about_body_content2 .about_content_flexbox .flex .about_image2 {
+  width: 90%;
+  height: 50vh;
+  background: url(../images/about_img2.jpg);
+  background-size: cover;
+}
+
+body .mother .about_body_content2 .about_content_flexbox .flex .about_image3 {
+  width: 90%;
+  height: 50vh;
+  background: url(../images/about_img3.jpg);
+  background-size: cover;
+}
+
+body .mother .about_body_content2 .about_content_flexbox .flex .about_image4 {
+  width: 80%;
+  line-height: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .mother .container .last_paragraph {
+  text-align: center;
+  padding: 100px 200px;
+  line-height: 2;
+  font-size: 1.2em;
+}
+
+body .mother .leaves {
+  width: 20%;
+  height: 40vh;
+  background: url(../images/leaves.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body .mother .leaves3 {
+  width: 20%;
+  height: 40vh;
+  background: url(../images/leaves.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 250%;
+  -webkit-transform: translateY(-250%);
+          transform: translateY(-250%);
+}
+/*# sourceMappingURL=about.css.map */
